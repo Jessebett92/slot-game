@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slots</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="game.css">
+
+
+</head>
+<body>
+    <div class="game-container">
+        <div class="heading-wrapper">
+            <div class="funds">
+                <div class="bank">
+                    <div class="bank-head">Your Bank Amount</div>
+                    <p class="bank-total" id="player-bank">500</p>
+                </div>
+                <div class="bets-are-up">
+                    <div class="bets-heading">You Are Betting...</div>
+                    <p class="betting" id="bet-amount">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="slot-title">
+            <div class="heading" id="heading-msg">
+                Slots
+            </div>
+        </div>
+        <div class="slot-machine-wrapper">
+            <div class="slot-machine-view">
+                <div class="lucky-item"><i id="itemA" class="fas fa-grin-alt"></i></div>
+                <div class="lucky-item"><i id="itemB" class="fas fa-grin-alt"></i></div>
+                <div class="lucky-item"><i id="itemC" class="fas fa-grin-alt"></i></div>
+            </div>
+            <div class="slot-machine-details">
+                <div class="slot-prompt">
+                    Place Your Bet!
+                </div>
+                <div class="bet">
+                    <div class="insert" id="betOne">$1.00</div>
+                    <div class="insert" id="betTen">$10.00</div>
+                    <div class="insert" id="betTwentyFive">$25.00</div>
+                    <div class="insert" id="betHundred">$100.00</div>
+                </div>
+            </div>
+        </div>
+        <div class="slot-btns">
+            <div class="spin-btn" id="spin">
+                Spin
+            </div>
+            <div class="stop-btn" id="stop-spin">
+                Stop
+            </div>
+        </div>
+        <div class="footer-prompt">
+            Try to Match 2 Icons!
+        </div>
+    </div>
+
+    <script src="slots.js"></script>
+</body>
+</html>

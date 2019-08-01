@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(
+        to top left,
+        #042037,
+        #123652,
+        #496d89,
+        #718ea4
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.game-container > .heading-wrapper {
+    width: 100vw;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    height: 6rem;
+}
+.game-container > .heading-wrapper p {
+    width: 10rem;
+    height: 3rem;
+    background-image: linear-gradient(
+        to top,
+        #45e800,
+        #ffff00
+    );
+    font-size: 2rem;
+    text-align: center;
+}
+
+.game-container > .heading-wrapper > .funds > .bank > .bank-head {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.game-container > .heading-wrapper > .funds > .bets-are-up > .bets-heading {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+
+/* Slot title */
+
+.game-container > .slot-title {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: #ffff00;
+    color: blue;
+
+}
+
+.game-container > .slot-title > .heading {
+    width: 40rem;
+    border-width: 0.75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red, 
+        blue
+    ) 30;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-image: linear-gradient(
+        to bottom,
+        #45e800,
+        #ffff00
+    );
+
+}
+
+.game-container > .slot-machine-wrapper {
+    display: grid;
+    grid-template-rows: 75% 25%; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 25rem;
+
+}
+
+/* LUCKY ITEMS */
+
+.game-container > .slot-machine-wrapper > .slot-machine-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40rem;
+    text-align: center;
+}
+
+.game-container > .slot-machine-wrapper > .slot-machine-view > .lucky-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    border-width: .75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red,
+        blue
+    ) 30;
+    background-image: linear-gradient(
+        to top,
+        #45e800,
+        #ffff00
+    );
+    color: #003832;
+}
+
+
+.game-container > .slot-machine-wrapper > .slot-machine-details {
+    border-width: .75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red,
+        blue
+    ) 30;
+    background-image: linear-gradient(
+        to bottom,
+        #45e800,
+        #ffff00
+    );
+    height: 6rem;
+
+}
+
+
+.game-container > .slot-machine-wrapper > .slot-machine-details > .slot-prompt {
+    display: flex;
+    justify-content: center;
+    margin: .75rem;
+    font-size: 2rem;
+}
+
+/* BET PLACEMENT */
+
+.game-container > .slot-machine-wrapper > .slot-machine-details > .bet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.game-container > .slot-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+
+}
+
+.game-container > .slot-machine-wrapper > .slot-machine-details > .bet > .insert:hover {
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+}
+
+
+.game-container > .slot-btns > .spin-btn {
+    border-width: .75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red,
+        blue
+    ) 30;
+    margin-top: 2rem;
+    background-image: linear-gradient(
+        to top,
+        #45e800,
+        #ffff00
+    );
+    font-size: 3rem;
+}
+
+.game-container > .slot-btns > .spin-btn:hover {
+    background-image: none;
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+}
+
+
+.game-container > .slot-btns > .winnings {
+    border-width: .75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red,
+        blue
+    ) 30;
+    margin-top: 2rem;
+    background-image: linear-gradient(
+        to top,
+        #45e800,
+        #ffff00
+    );
+    font-size: 1.5rem;
+    width: 5rem;
+}
+
+.game-container > .slot-btns > .stop-btn {
+    border-width: .75rem;
+    border-style: solid;
+    border-image: linear-gradient(
+        to top,
+        red,
+        blue
+    ) 30;
+    margin-top: 2rem;
+    background-image: linear-gradient(
+        to top,
+        #45e800,
+        #ffff00
+    );
+    font-size: 3rem;
+}
+
+.game-container > .slot-btns > .stop-btn:hover {
+    background-image: none;
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+}
+
+.game-container > .footer-prompt {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #45e800;
+    margin-top: 0.75rem;
+}
+
+
